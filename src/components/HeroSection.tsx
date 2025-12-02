@@ -40,7 +40,7 @@ export function HeroSection() {
             className="text-xl md:text-2xl mb-12 max-w-2xl mx-auto leading-relaxed"
             style={{ color: "#2E2E2E", opacity: 0.8 }}
           >
-            Em breve, novas turmas para você se reconectar com sua essência
+            Ingresse nessa jornada de autoconhecimento comigo.
           </p>
 
           {/* Decorative elements */}

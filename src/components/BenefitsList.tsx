@@ -4,18 +4,21 @@ export function BenefitsList() {
   const benefits = [
     {
       icon: Bell,
-      title: "Aviso antecipado",
-      description: "Seja a primeira a saber quando as novas turmas abrirem.",
+      title: "Contato sem compromisso",
+      description:
+        "Eu entrarei em contato para entender seus objetivos e necessidades nesse momento.",
     },
     {
       icon: Sparkles,
-      title: "Conteúdo com intenção",
-      description: "Receba reflexões e práticas para já começar a se conectar.",
+      title: "Prática Personalizada",
+      description:
+        "Aulas adaptadas ao seu nível e objetivos, garantindo uma experiência única e cheia de significado.",
     },
     {
       icon: Gift,
-      title: "Vantagens exclusivas",
-      description: "Condições especiais para quem estiver na lista de espera.",
+      title: "Aprofundamento e Ofertas",
+      description:
+        "Acesso a conteúdos exclusivos e ofertas especiais ao longo da sua jornada de yoga.",
     },
   ];
 
@@ -23,13 +26,14 @@ export function BenefitsList() {
     <div className="space-y-8">
       <div className="text-center">
         <h3 className="text-2xl mb-4" style={{ color: "#2E2E2E" }}>
-          Por que entrar na lista?
+          Por que devo me inscrever?
         </h3>
         <p
           className="text-sm opacity-70 max-w-md mx-auto"
           style={{ color: "#2E2E2E" }}
         >
-          Conecte-se com uma comunidade que valoriza crescimento e bem-estar
+          Ao se inscrever, eu entrarei em contato para agendarmos sua primeira
+          aula
         </p>
       </div>
 

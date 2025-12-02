@@ -1,7 +1,7 @@
-import { YogaWaitlistForm } from "./components/YogaWaitlistForm";
+import YogaScheduleForm from "./components/YogaScheduleForm";
 import { BenefitsList } from "./components/BenefitsList";
 import { HeroSection } from "./components/HeroSection";
-import { Camera, Mail, Linkedin, Github, Instagram } from "lucide-react";
+import { Mail, Linkedin, Github, Instagram } from "lucide-react";
 
 export default function App() {
   return (
@@ -44,21 +44,21 @@ export default function App() {
                   style={{ color: "#2E2E2E", opacity: 0.9 }}
                 >
                   <p>
-                    Estou finalizando minha formação como instrutora de Yoga
-                    (Yoga Teacher Trainer - YTT) e quero abrir espaço para
-                    compartilhar essa jornada com você.
+                    Certificada internacionalmente pela Yoga Alliance, serei sua
+                    instrutora nessa jornada de yoga e bem-estar.
                   </p>
 
                   <p>
-                    Meu objetivo é criar práticas que conectam, consistentes e
-                    cheias de intenção, ajudando você a encontrar mais
-                    equilíbrio no seu dia a dia.
+                    Meu objetivo é criar práticas que conectam, inspiram e
+                    promovem equilíbrio físico e mental. A jornada é pessoal mas
+                    o caminho é mais leve quando trilhado juntos. Busco endender
+                    o objetivo de cada aluno e criar práticas que ressoam com
+                    suas necessidades individuais.
                   </p>
 
                   <p>
-                    Essa lista de espera é o primeiro passo: aqui você recebe
-                    novidades em primeira mão, conteúdos especiais e condições
-                    exclusivas quando as turmas abrirem.
+                    Vamos juntos cultivar espaços, presença e autoconhecimento
+                    pelo caminho do yoga.
                   </p>
                 </div>
 
@@ -103,7 +103,7 @@ export default function App() {
 
               {/* Form */}
               <div>
-                <YogaWaitlistForm />
+                <YogaScheduleForm />
               </div>
             </div>
           </div>
@@ -123,9 +123,6 @@ export default function App() {
                 <h3 className="text-3xl mb-2" style={{ color: "#2E2E2E" }}>
                   Jéssica Cechin
                 </h3>
-                <p className="opacity-70" style={{ color: "#2E2E2E" }}>
-                  Yoga em formação • bem-estar com autenticidade
-                </p>
               </div>
 
               {/* Social Links */}
