@@ -7,7 +7,7 @@ const privateKey = fs.readFileSync(
 );
 
 const SALA = "YogaComJessica";
-const SENHA_DA_SALA = "namaste";
+//const SENHA_DA_SALA = "namaste";
 
 const payload = {
   aud: "jitsi",
@@ -16,9 +16,6 @@ const payload = {
   room: SALA,
 
   context: {
-    room: {
-      password: SENHA_DA_SALA,
-    },
     user: {
       name: "Jéssica Cechin",
       moderator: true,
@@ -31,9 +28,6 @@ const payload = {
       "screen-sharing": true,
     },
   },
-
-  // Token válido por 12h
-  exp: Math.floor(Date.now() / 1000) + 60 * 60 * 12,
 };
 
 // Assinando o JWT com sua chave privada
